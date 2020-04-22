@@ -1,0 +1,11 @@
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+h2 {
+  font-family: 'DM Serif Display', serif;
+}
+
+.d-flex {
+  background: hsl(256, 26%, 20%);
+}
