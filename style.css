@@ -2,10 +2,41 @@ body {
   font-family: 'Karla', sans-serif;
 }
 
-h2 {
+h1, h2, h3 {
   font-family: 'DM Serif Display', serif;
 }
 
-.d-flex {
+.hr-top {
+  border-top: 1px solid hsla(256, 25%, 20%, 0.6);
+  width: 8rem;
+}
+
+.hr-foot {
+  border-top: 1px solid hsl(0, 0%, 85%);
+  width: 20rem;
+}
+
+.humanizing, .yoloswag {
   background: hsl(256, 26%, 20%);
+}
+
+.humanizing {
+
+}
+
+.yoloswag {
+  background: right top url(./images/bg-pattern-how-we-work-mobile.svg) no-repeat, hsl(256, 26%, 20%);
+}
+
+.img-fluid {
+  object-fit: cover;
+}
+
+.tchoin {
+  background: url(./images/bg-pattern-footer-mobile.svg) no-repeat;
+}
+
+.tamère {
+  width: 7rem;
+  margin: 0 auto;
 }
