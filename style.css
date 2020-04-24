@@ -40,3 +40,23 @@ h1, h2, h3 {
   width: 7rem;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+  .tamère {
+    margin: 0;
+    height: 1.2rem;
+  }
+
+  .tchoin {
+    background: none;
+  }
+
+  .footer {
+  background: url(./images/bg-pattern-footer-desktop.svg) no-repeat;
+
+  }
+
+  .hr-foot {
+    width: 75%;
+  }
+}
