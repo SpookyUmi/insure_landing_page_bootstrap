@@ -20,10 +20,6 @@ h1, h2, h3 {
   background: hsl(256, 26%, 20%);
 }
 
-.humanizing {
-
-}
-
 .yoloswag {
   background: right top url(./images/bg-pattern-how-we-work-mobile.svg) no-repeat, hsl(256, 26%, 20%);
 }
@@ -39,6 +35,14 @@ h1, h2, h3 {
 .tamère {
   width: 7rem;
   margin: 0 auto;
+}
+
+.desktop {
+  display: none;
+}
+
+.hr-toptop {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -58,5 +62,54 @@ h1, h2, h3 {
 
   .hr-foot {
     width: 75%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+
+}
+
+.hr-toptop {
+  display: inline-block;
+  border-top: 1px solid white;
+  width: 8rem;
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 992px) {
+  .yoloswag {
+    height: 250px;
+  }
+
+  .hr-top {
+    margin: 3rem 0;
+  }
+
+  h1 {
+    font-size: 3.1rem;
+  }
+
+  .humanizing {
+    max-height: 30rem;
+  }
+
+  .text-huma {
+    max-width: 40rem;
+  }
+
+  .desktop {
+    max-width: 500px;
+    align-self: flex-start;
+  }
+
+  .navbar {
+    max-width: 1140px;
+    margin: 0 auto;
   }
 }
